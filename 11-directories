@@ -1,2 +1,0 @@
-#!/bin/bash
-find . -tyde d ! -name'.' ! -name'..' | wc -l
