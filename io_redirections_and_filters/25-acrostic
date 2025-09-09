@@ -1,6 +1,6 @@
 #!/bin/bash
-while read -r line
-do
-    printf "%s" "${line:0:1}"
+result=""
+while read -r line; do
+    result+="${line:0:1}"
 done
-echo
+echo "$result"
