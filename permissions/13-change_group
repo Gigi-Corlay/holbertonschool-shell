@@ -1,3 +1,5 @@
 #!/bin/bash
-chgrp school hello
-
+# Change le groupe du fichier hello en school
+sudo chown :school hello
+# Définit les permissions du fichier pour que le propriétaire puisse écrire et le groupe ainsi que les autres puissent lire
+sudo chmod 644 hello
