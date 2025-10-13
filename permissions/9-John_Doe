@@ -1,2 +1,7 @@
 #!/bin/bash
+<<<<<<< HEAD
 chmod 753 hello
+=======
+chmod $(stat -c "%a" olleh) hello
+
+>>>>>>> b701f55 (Commands for write a script that sets the mode of the file hello the same as olleh’s mode.)
