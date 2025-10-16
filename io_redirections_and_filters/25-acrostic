@@ -1,3 +1,2 @@
 #!/bin/bash
 head -n -0 | cut -c1 | tr -d '\n'
-echo
