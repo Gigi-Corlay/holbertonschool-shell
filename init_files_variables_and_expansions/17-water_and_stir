@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%o\n" $(( 5#$(echo "$WATER" | tr ...) + 4#$(echo "$STIR" | tr ...) )) | tr 01234567 bestchol
